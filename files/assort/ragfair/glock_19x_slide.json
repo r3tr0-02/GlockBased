@@ -1,0 +1,10 @@
+{
+	"_id": "glock_19x_slide",
+	"_tpl": "glock_19x_slide",
+	"parentId": "hideout",
+	"slotId": "hideout",
+	"upd": {
+		"UnlimitedCount": true,
+		"StackObjectsCount": 99999999
+	}
+}

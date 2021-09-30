@@ -1,0 +1,21 @@
+shaders
+cubemaps
+assets/content/weapons/glock19x/textures/client_assets.bundle
+assets/systems/effects/muzzleflash/muzzleflash.bundle
+assets/content/weapons/animations/spirit_animations.bundle
+assets/content/weapons/animations/simple_animations.bundle
+assets/content/weapons/weapon_root_anim_fix.bundle
+assets/commonassets/physics/physicsmaterials.bundle
+assets/content/weapons/animations/animations.bundle
+assets/content/weapons/glock19x/client_assets.bundle
+assets/content/weapons/additional_hands/client_assets.bundle
+assets/content/audio/banks/glock17.bundle
+assets/content/audio/weapons/kedr.bundle
+assets/content/audio/weapons/ak74.bundle
+assets/content/audio/weapons/mpx.bundle
+assets/content/audio/weapons/pm.bundle
+assets/content/audio/weapons/generic
+assets/content/audio/weapons/grach.bundle
+assets/content/weapons/glock19x/weapon_glock_glock_17_gen3_9x19.animatorcontrollerdata.bundle
+assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle
+assets/systems/effects/heathaze/defaultheathaze.bundle
