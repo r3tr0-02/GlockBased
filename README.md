@@ -1,4 +1,4 @@
-#DISCLAIMER
+# DISCLAIMER
 This mod is not being updated anymore as of 20/4/2022.
 
 # Description
