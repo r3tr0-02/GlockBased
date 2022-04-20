@@ -1,3 +1,6 @@
+#DISCLAIMER
+This mod is not being updated anymore as of 20/4/2022.
+
 # Description
 This mod adds Glock 21, chambered in .45 ACP and Glock 19x into Altered Escape.
 
