@@ -1,0 +1,263 @@
+{
+    "itemLoader": {
+		"basedOn": "5a7ae0c351dfba0017554310",
+		"addQuestWeapon": "5979e7fe86f774311955e613",
+		"addToTrader": {
+			"mechanic": [
+				{
+					"autoCost": "roubles",
+					"preset": "Glock19x_DefaultPreset"
+				}
+			]
+		}
+	},
+    "propsEdits": {
+        "Prefab": {
+            "Path": "assets/content/weapons/glock19x/weapon_glock_glock_17_gen3_9x19_container.bundle",
+            "rcid": ""
+        },
+        "Slots": [
+			{
+				"_name": "mod_barrel",
+				"_props": {
+					"filters": [
+						{
+							"Shift": 0,
+							"Filter": [
+                                "5a6b5b8a8dc32e001207faf3",
+                                "5a6b5e468dc32e001207faf5",
+                                "5a6b60158dc32e000a31138b",
+                                "5a6b5f868dc32e000a311389",
+                                "5a6b5ed88dc32e000c52ec86"
+                            ]
+						}
+					]
+				},
+				"_required": true,
+				"_mergeSlotWithChildren": false,
+				"_proto": "55d30c4c4bdc2db4468b457e"
+			},
+			{
+				"_name": "mod_pistol_grip",
+				"_props": {
+					"filters": [
+						{
+							"Shift": 0,
+							"Filter": [
+								"5a7b4960e899ef197b331a2d"
+							]
+						}
+					]
+				},
+				"_required": false,
+				"_mergeSlotWithChildren": false,
+				"_proto": "55d30c4c4bdc2db4468b457e"
+			},
+			{
+				"_name": "mod_reciever",
+				"_props": {
+					"filters": [
+						{
+							"Shift": 0,
+							"Filter": [
+								"Glock19x_Slide"
+							]
+						}
+					]
+				},
+				"_required": true,
+				"_mergeSlotWithChildren": false,
+				"_proto": "55d30c4c4bdc2db4468b457e"
+			},
+			{
+				"_name": "mod_magazine",
+				"_props": {
+					"filters": [
+						{
+							"AnimationIndex": 0,
+							"Filter": [
+                                "5a7ad2e851dfba0016153692",
+                                "5a718b548dc32e000d46d262",
+                                "5a718da68dc32e000d46d264",
+                                "5a718f958dc32e00094b97e7"
+                            ]
+						}
+					]
+				},
+				"_required": false,
+				"_mergeSlotWithChildren": false,
+				"_proto": "55d30c394bdc2dae468b4577"
+			},
+			{
+				"_name": "mod_tactical",
+				"_props": {
+					"filters": [
+						{
+							"Shift": 0,
+							"Filter": [
+                                "5a7ad74e51dfba0015068f45",
+                                "5a800961159bd4315e3a1657",
+                                "5cc9c20cd7f00c001336c65d",
+                                "5d2369418abbc306c62e0c80",
+                                "5b07dd285acfc4001754240d",
+                                "56def37dd2720bec348b456a",
+                                "5a7b483fe899ef0016170d15",
+                                "5a5f1ce64f39f90b401987bc",
+                                "560d657b4bdc2da74d8b4572",
+                                "5a7ad4af51dfba0013379717",
+                                "5a7b4900e899ef197b331a2a"
+                            ]
+						}
+					]
+				},
+				"_required": false,
+				"_mergeSlotWithChildren": false,
+				"_proto": "55d30c4c4bdc2db4468b457e"
+			},
+			{
+				"_name": "mod_mount",
+				"_props": {
+					"filters": [
+						{
+							"Shift": 0,
+							"Filter": [
+								"5a7ad55551dfba0015068f42"
+							]
+						}
+					]
+				},
+				"_required": false,
+				"_mergeSlotWithChildren": false,
+				"_proto": "55d30c4c4bdc2db4468b457e"
+			},
+			{
+				"_name": "mod_stock",
+				"_props": {
+					"filters": [
+						{
+							"Shift": 0,
+							"Filter": [
+								"5d1c702ad7ad1a632267f429"
+							]
+						}
+					]
+				},
+				"_required": false,
+				"_mergeSlotWithChildren": false,
+				"_proto": "55d30c4c4bdc2db4468b457e"
+			}
+		]
+    },
+    "locales": {
+		"english": {
+			"Name": "Glock 19X gen5 9x19",
+			"ShortName": "Glock 19x",
+			"Description": "The Glock 19X is the civilian version of Glock's entry to the XM17 Modular Handgun System competition for the US Military. It features a Glock 19 slide with a Glock 17 frame in coyote color instead of the regular black color the Glock usually comes in. Compatible with all glock 17 parts."
+		},
+		"french": {
+			"Name": "Glock 19X gen5 9x19",
+			"ShortName": "Glock 19x",
+			"Description": "Le Glock 19X est la version civile de l'entrée de Glock dans la compétition XM17 Modular Handgun System pour l'armée américaine. Il comporte une glissière de Glock 19 avec un cadre de Glock 17 en couleur coyote au lieu de la couleur noire habituelle du Glock. Compatible avec toutes les pièces du Glock 17."
+		},
+		"german": {
+			"Name": "Glock 19X gen5 9x19",
+			"ShortName": "Glock 19x",
+			"Description": "Die Glock 19X ist die zivile Version von Glocks Beitrag zum XM17 Modular Handgun System Wettbewerb für das US-Militär. Sie verfügt über einen Glock 19 Schlitten mit einem Glock 17 Rahmen in Coyote Farbe anstelle der regulären schwarzen Farbe die Glock in der Regel kommt. Kompatibel mit allen Glock 17 Teilen."
+		},
+		"russian": {
+			"Name": "Glock 19X gen5 9x19",
+			"ShortName": "Glock 19x",
+			"Description": "Glock 19X - это гражданская версия пистолета Glock, участвовавшего в конкурсе XM17 Modular Handgun System для вооруженных сил США. Он имеет затвор Glock 19 с рамкой Glock 17 цвета \"койот\" вместо обычного черного цвета, в котором обычно выпускается Glock. Совместим со всеми частями Glock 17."
+		}
+	},
+    "weaponMastery": "GLOCK17",
+    "weaponPresets": {
+        "Glock19x_DefaultPreset": {
+			"_name": "Glock 19x Default",
+			"_parent": "0",
+			"_items": [
+				{
+					"_id": "0"
+				},
+				{
+					"_id": "1",
+					"_tpl": "5a6b5f868dc32e000a311389",
+					"parentId": "0",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "2",
+					"_tpl": "Glock19x_Slide",
+					"parentId": "0",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "3",
+					"_tpl": "5a718b548dc32e000d46d262",
+					"parentId": "0",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "4",
+					"_tpl": "5a6f58f68dc32e000a311390",
+					"parentId": "2",
+					"slotId": "mod_sight_front"
+				},
+				{
+					"_id": "5",
+					"_tpl": "5a6f5d528dc32e00094b97d9",
+					"parentId": "2",
+					"slotId": "mod_sight_rear"
+				}
+			]
+		}
+    },
+    "manifest": [
+        {
+            "relativePath": "items/weapon/Glock19x/bundles/weapon_glock_19x_9x19_container.bundle",
+            "key": "assets/content/weapons/glock19x/weapon_glock_glock_17_gen3_9x19_container.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/weapons/glock19x/textures/client_assets.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/content/weapons/animations/spirit_animations.bundle",
+                "assets/content/weapons/animations/simple_animations.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/weapons/animations/animations.bundle",
+                "assets/content/weapons/glock19x/client_assets.bundle",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/audio/banks/glock17.bundle",
+                "assets/content/audio/weapons/kedr.bundle",
+                "assets/content/audio/weapons/ak74.bundle",
+                "assets/content/audio/weapons/mpx.bundle",
+                "assets/content/audio/weapons/pm.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/audio/weapons/grach.bundle",
+                "assets/content/weapons/glock19x/weapon_glock_glock_17_gen3_9x19.animatorcontrollerdata.bundle",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle"
+            ]
+        },
+        {
+            "relativePath": "items/weapon/Glock19x/bundles/weapon_glock_19x_9x19.animatorcontrollerdata.bundle",
+            "key": "assets/content/weapons/glock19x/weapon_glock_glock_17_gen3_9x19.animatorcontrollerdata.bundle",
+            "dependencyKeys": []
+        },
+        {
+            "relativePath": "items/weapon/Glock19x/bundles/client_assets.bundle",
+            "key": "assets/content/weapons/glock19x/client_assets.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/weapons/glock19x/textures/client_assets.bundle"
+            ]
+        },
+        {
+            "relativePath": "items/weapon/Glock19x/bundles/textures/client_assets.bundle",
+            "key": "assets/content/weapons/glock19x/textures/client_assets.bundle",
+            "dependencyKeys": []
+        }
+    ]
+}

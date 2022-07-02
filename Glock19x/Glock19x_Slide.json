@@ -1,0 +1,44 @@
+{
+	"itemLoader": {
+		"basedOn": "5a6f5e048dc32e00094b97da"
+	},
+	"propsEdits": {
+		"Prefab": {
+			"path": "assets/content/items/mods/recievers/reciever_glock_19x_std.bundle",
+			"rcid": ""
+		}
+	},
+	"locales": {
+		"english": {
+			"Name": "Standard Glock 19X slide",
+			"ShortName": "Glock slide",
+			"Description": "Standard slide for Glock 19x gen5."
+		},
+		"french": {
+			"Name": "Glissière standard pour Glock 19X",
+			"ShortName": "Glock slide",
+			"Description": "Glissière standard pour Glock 19x gen5."
+		},
+		"german": {
+			"Name": "Standard Glock 19X Schlitten",
+			"ShortName": "Glock slide",
+			"Description": "Standardschlitten für Glock 19x gen5."
+		},
+		"russian": {
+			"Name": "Стандартный затвор для Glock 19X",
+			"ShortName": "Glock slide",
+			"Description": "Стандартный затвор для Glock 19x gen5."
+		}
+	},
+	"manifest": [
+		{
+			"relativePath": "items/weapon/Glock19x/bundles/receivers/receiver_glock_19x_std.bundle",
+			"key": "assets/content/items/mods/recievers/reciever_glock_19x_std.bundle",
+			"dependencyKeys": [
+				"shaders",
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		}
+	]
+}
